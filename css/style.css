@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-image: url(../assets/img/bck.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 35px 40px;
+  height: 80vh;
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.burger-menu {
+  display: none;
+}
+.logo span {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+ul {
+  display: flex;
+}
+ul li {
+  margin-left: 35px;
+}
+ul li a {
+  color: white;
+  font-size: 18px;
+}
+.contactButton {
+  background-color: white;
+  border: none;
+  border-radius: 28px;
+  padding: 14px 28px;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  transition: 300ms;
+}
+.contactButton:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  transition: 300ms;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.hero p {
+  font-size: 56px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+.hero img {
+  width: 30px;
+  margin-top: 100px;
+}
